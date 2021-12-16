@@ -64,3 +64,5 @@ for x in f:
     total += int(''.join(buff))
 
 print(total)
+
+f.close()

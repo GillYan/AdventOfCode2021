@@ -5,7 +5,7 @@ f = open("input.txt", "r")
 start = f.readline().split(',')
 # corresponding to each day 0 to 9
 pop = [0,0,0,0,0,0,0,0,0]
-days = 1500
+days = 256
 
 def printPop():
     # print info
@@ -45,3 +45,5 @@ for x in pop:
     total += x
 
 print('num:', total)
+
+f.close()

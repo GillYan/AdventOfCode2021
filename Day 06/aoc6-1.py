@@ -17,10 +17,6 @@ def printPop():
 for x in start:
     pop.append(x)
 
-# print initial state
-# print('Initial state:\t', end='')
-# printPop()
-
 for x in range(days):
     numAdd = 0
     
@@ -38,8 +34,6 @@ for x in range(days):
     for i in range(numAdd):
         pop.append(8)
 
-    # print info
-    # print('After', x+1, 'days:\t', end='')
-    # printPop()
-
 print(len(pop))
+
+f.close()

@@ -90,3 +90,5 @@ for x in f:
             break
     
 print('score:', score)
+
+f.close()

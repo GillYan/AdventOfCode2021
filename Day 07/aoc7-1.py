@@ -16,3 +16,5 @@ for i, x in enumerate(pos):
         cheapest = [i, fuel]
 
 print(cheapest)
+
+f.close()

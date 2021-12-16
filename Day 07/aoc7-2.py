@@ -39,3 +39,5 @@ for x in range(biggest+1):
         cheapest = [x, fuel]
 
 print(cheapest)
+
+f.close()
