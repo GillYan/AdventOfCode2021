@@ -87,10 +87,14 @@ def main():
             temp.append(int(col))
         pos.append(temp)
 
-    for i in range(numSteps):
-        numFlashes += takeStep(pos)
+    i = 0
+    while True:
+        i += 1
+        numFlashes = takeStep(pos)
+        if numFlashes == 100:
+            print('All of the octopuses flashed on step', i)
+            break
 
-    print('Flashed', numFlashes, 'times after', numSteps, 'steps')
     f.close()
 
 if __name__ == "__main__":
