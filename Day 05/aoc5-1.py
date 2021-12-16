@@ -76,3 +76,4 @@ for j in board:
             danger += 1
 
 print('danger:', danger)
+f.close()

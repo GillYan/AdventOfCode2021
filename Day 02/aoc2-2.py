@@ -20,3 +20,4 @@ for x in f:
         aim -= dist;
 
 print('pos: ', horizontal*vertical)
+f.close()

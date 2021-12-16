@@ -24,3 +24,4 @@ g = int(''.join(gamma), 2)
 e = int(''.join(epsilon), 2)
 
 print('power consumption: ', g * e)
+f.close()

@@ -88,3 +88,4 @@ while (len(csr) > 1):
 o = int(ogr[0], 2)
 co2 = int(csr[0], 2)
 print(o * co2)
+f.close()

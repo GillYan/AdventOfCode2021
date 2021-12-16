@@ -49,6 +49,8 @@ def main():
 
         
     print(points)
+    
+    f.close()
 
 if __name__ == "__main__":
     main()

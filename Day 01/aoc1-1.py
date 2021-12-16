@@ -19,3 +19,5 @@ for x in f:
     last = x
 
 print('total higher = ', higher)
+
+f.close()

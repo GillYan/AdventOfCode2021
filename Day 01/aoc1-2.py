@@ -14,15 +14,14 @@ for x in f:
 
     if (one > 0 and two > 0 and three > 0):
         sum = one + two + three
-        print(sum,'')
 
         if (last > 0):
             if (sum > last):
-                print('increased')
                 higher += 1
         
         last = sum
 
 print('higher = ', higher)
+f.close()
 
         

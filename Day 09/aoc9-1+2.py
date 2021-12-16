@@ -118,3 +118,5 @@ multi = basins[-3] * basins[-2] * basins[-1]
 print('risk level sum:', risk)
 #print('basins:', basins)
 print('multi:', multi)
+
+f.close()

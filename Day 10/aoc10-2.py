@@ -90,6 +90,8 @@ def main():
     # get the middle score
     points = (sorted(scores))[len(scores) // 2]
     print(points)
+    
+    f.close()
 
 if __name__ == "__main__":
     main()
